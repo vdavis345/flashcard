@@ -1,0 +1,43 @@
+.card{
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    height:250px;
+    width:300px;
+
+
+}
+
+.cardfront{
+background-color:blue;
+color:black;
+height:100%;
+width:100%;
+backface-visibility: hidden;
+position: absolute;
+
+}
+
+.cardback{
+background-color:green;
+color:black;
+position: absolute;
+height:100%;
+width:100%;
+display: none
+}
+
+#question{
+    height: auto;
+    width: auto;
+}
+#hint{
+    height: auto;
+    width: auto;
+}
+
+form{
+    margin-left: 250;
+    margin-right: 200;
+   
+}
